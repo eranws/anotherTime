@@ -1,0 +1,4 @@
+newScript = document.createElement('script');
+newScript.type = 'text/javascript';
+newScript.src = '/path/to/js/file';
+document.getElementsByTagName('head')[0].appendChild(newScript);
